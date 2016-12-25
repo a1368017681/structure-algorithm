@@ -8,6 +8,7 @@
 #include <stack>
 #include <cmath>
 #include <queue>
+#include "uf.h"
 #define N 10000
 #define M 60
 
