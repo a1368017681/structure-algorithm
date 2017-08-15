@@ -11,11 +11,22 @@ typedef enum{
 }LOG_PARSE_RET;
 
 typedef struct {
-	void *first_num_start,*first_num_end;
-	void *none_start,*none_end;
-	void *first_minus_start;
-	void *ip_start,*ip_end;	
+	void *col1_start,*col1_end;
+	void *col2_start,*col2_end;
+	void *col3_start,*col3_end;
+	void *col4_start,*col4_end;
+	void *col5_start,*col5_end;
+	void *col6_start,*col6_end;	
+	void *col7_start,*col7_end;
+	void *col8_start,*col8_end;
+	void *col9_start,*col9_end;
+	void *col10_start,*col10_end;
+	void *col11_start,*col11_end;
+	void *col12_start,*col12_end;
+	void *col13_start,*col13_end;
+	void *col14_start,*col14_end;
 }LOG;
 
+LOG_PARSE_RET log_parser(char* log_str,LOG *log);
 
 #endif
